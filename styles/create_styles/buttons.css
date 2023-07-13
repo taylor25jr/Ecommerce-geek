@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+
+
+.input__form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 399px;
+    padding: 20px;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.enter__btn{
+    background-color: #2A7AE4;
+    width: 400px;
+    height: 62px;
+    font-family: 'Raleway';
+    font-size: 18px;
+    color: #fff;
+}
