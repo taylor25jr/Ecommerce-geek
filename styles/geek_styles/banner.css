@@ -1,0 +1,31 @@
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Raleway';
+}
+
+.banner__content{
+display: flex;
+flex-flow: column wrap;
+width: 80%;
+margin-top: 120px;
+
+}
+.banner__title{
+color: #fff;
+font-size: 40px;
+font-weight: 700;
+}
+.banner__description{
+font-weight: 700;
+font-size: 22px;
+color: #fff;
+line-height: 2;
+}
+.banner__link{
+padding: 16px;
+background-color:#2A7AE4 ;
+width:129px ;
+height: 51px;
+}

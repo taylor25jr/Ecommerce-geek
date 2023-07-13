@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+body{
+    display: grid;
+    width: 100%;
+    min-height: 100vh;
+    grid-auto-flow: column;
+    grid-template-columns:repeat(4,1fr) ;
+    grid-template-rows: 20vh 80vh 40vh 10vh  ;
+    grid-template-areas: 
+    
+    'header  header  header  header'
+    'main    main    main     main'
+    
+    ;
+}
+
+header{
+ 
+align-items: center;
+height: 115px;
+width: 100%;
+display: flex;
+flex-flow: column wrap;
+grid-area: header;
+
+}
+
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    grid-area: main;
+    background-color: #F5F5F5;;
+}
