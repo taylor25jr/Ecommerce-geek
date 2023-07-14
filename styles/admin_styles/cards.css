@@ -1,3 +1,11 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+
+
 .cards__container{
     display: flex;
     flex-flow: column wrap;
@@ -12,21 +20,21 @@
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-between;
-    width: 90%;
+    width: 85%;
     margin: 20px;
 }
 .card__content{
-    display: grid;
-    grid-template-columns: repeat(6,15%);
-    grid-auto-flow: column;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  width: 80%;
+  justify-content: flex-start;
+  
 
 }
 .card{
 width: 16.6%;
-margin: 10px;
+margin-top: 30px;
+margin-bottom: 55px;
 }
 .img__card{
     position: relative;

@@ -38,23 +38,26 @@
         <h1 class="login__title">Agregar Producto</h1>
 
         <article class="container">
-            <input type="" class="input__form input__url" required placeholder="Escriba el url de la imagen">
+            <input type="" class="input__form input__url" required placeholder="Escriba el url de la imagen" data-url>
         </article>
         <article class="container">
-            <input type="text" class=" input__form input__category" required placeholder="Categoria">
+            <input type="text" class=" input__form input__category"  required placeholder="Categoria" data-category>
         </article>
         <article class="container">
-            <input type="text" class=" input__form input__name" required placeholder="Nombre del producto">
+            <input type="text" class=" input__form input__name" required placeholder="Nombre del producto" data-name>
         </article>
         <article class="container">
-            <input type="number" class=" input__form input__price" required placeholder="Precio del producto">
+            <input type="number" class=" input__form input__price" required placeholder="Precio del producto" data-price>
         </article>
         <article class="container">
-            <textarea class="input__form input__description" placeholder="Descripcion del producto"></textarea>
+            <textarea class="input__form input__description" required placeholder="Descripcion del producto" data-description></textarea>
         </article>
 
-        <button class="enter__btn">Entrar</button>
+        <button class="enter__btn" data-add-btn>Entrar</button>
     </form>
 </main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" referrerpolicy="no-referrer"></script>
+<script type="module" src="/modules/create_product.js"></script>
 </body>
 </html>

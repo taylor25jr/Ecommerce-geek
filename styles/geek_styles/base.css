@@ -43,7 +43,6 @@ header{
     grid-area: banner;
 }
 .content{
-    margin-top: 50px;
     grid-area: cards;
     background-color: #F5F5F5;
 }

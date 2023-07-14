@@ -1,13 +1,19 @@
 {
-    "producto": [
-      {
-        "url": "2",
-        "category": "h@gmail.com",
-        "name": "ben 10",
-        "price":"9.00",
-        "id": "6f45acb2-05d3-4307-ba5f-4a03e50370a7"
-      }
-    
-    ]
-
+  "producto": [
+    {
+      "url": "https://album.mediaset.es/eimg/2017/09/22/LpAkeGNMTSXb9Q9XVTkIM1.jpg?w=1200",
+      "category": "h@gmail.com",
+      "name": "ben 10",
+      "price": "9.00",
+      "id": "6f45acb2-05d3-4307-ba5f-4a03e50370a7"
+    },
+    {
+      "img": "https://pics.filmaffinity.com/Darwin_s_Game_Serie_de_TV-463447491-large.jpg",
+      "title": "Darwin",
+      "price": "500",
+      "category": "anime",
+      "description": "game",
+      "id": "4d6f1a29-4133-4164-a17f-4839d5ca20d0"
+    }
+  ]
 }

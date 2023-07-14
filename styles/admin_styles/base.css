@@ -12,6 +12,7 @@ a{
 body{
     display: grid;
     grid-template-columns: repeat(8,1fr);
+    grid-template-rows: 115px minmax(100vh,150vh) 50vh 115px;
     width: 100%;
     min-height: 100vh;
     grid-template-areas: 
@@ -22,8 +23,8 @@ body{
 
 header{
     align-items: center;
-    height: 115px;
     width: 90%;
+    height: 115px;
     display: flex;
     flex-flow: column wrap;
     grid-area: header;
@@ -31,8 +32,8 @@ header{
 
 
 .content{
-    margin-top: 50px;
     grid-area: cards;
+    padding: 50px;
     background-color: #f2f2f2;
 }
 
