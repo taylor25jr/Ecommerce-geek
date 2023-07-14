@@ -8,8 +8,8 @@ const createProduct = (img,title,price,id) => {
  
   <div class="img__card">
   <img src="${img}" alt="" class="card__img" />
-  <button id="${id}"  class="delete_btn"><img src="/img/delete.svg" alt="" class="delete__icon" /></button>
-  <a href="/screens/edit.html"> <img src="/img/edit.svg" alt="" class="edit__icon"></a>
+  <button id="${id}"  class="delete_btn"><img src="/img/delete.svg" alt="" class="delete__icon"  /></button>
+  <a href="/screens/edit.html?id=${id}"> <img src="/img/edit.svg" alt="" class="edit__icon"></a>
   </div>
   <h1 class="name__Card">${title}</h1>
   <h2 class="price__Card">$ ${price}</h2>
@@ -20,7 +20,8 @@ const createProduct = (img,title,price,id) => {
   const deleteItem = article.querySelector('.delete_btn');
   deleteItem.addEventListener('click', async e => {
     try {
-      await productControl.deleteProduct(id)
+      await productControl.deleteProduct(id);
+      console.log(productControl.deleteProduct())
     } catch (error) {
       console.log(error)
     }
@@ -36,7 +37,7 @@ const returnPromise = async () => {
     try {
       const data = await productControl.productList();
         data.forEach(card => {
-            const newItem = createProduct(card.img,card.title,card.price);
+            const newItem = createProduct(card.img,card.title,card.price,card.id);
             container.appendChild(newItem);
         });
     } catch (error) {

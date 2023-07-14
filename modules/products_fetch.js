@@ -14,10 +14,28 @@ const deleteProduct = id => {
     return fetch(`http://localhost:3000/producto/${id}`,{
         method: 'DELETE',
     })
-} 
+}
+
+const getInfo = id => fetch(`http://localhost:3000/producto/${id}`).then(answer => answer.json());
+
+const updateProduct = (img,title,price,category,description,id) => {
+return fetch(`http://localhost:3000/producto/${id}`, {
+    method: 'PUT',
+    headers: {
+        "Content-Type": "application/json"
+    },
+    body: JSON.stringify({img,title,price,category,description}),
+
+})
+.then(answer => console.log(answer));
+}
 
 export  const productControl = {
 productList,
 createItem,
 deleteProduct,
+getInfo,
+updateProduct,
 }
+
+        
