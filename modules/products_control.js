@@ -34,6 +34,16 @@ const createProduct = (img,title,price,id) => {
   const container = document.querySelector('[data-container]')
 
 const returnPromise = async () => {
+
+  const list = await productControl.productList();
+  const create = document.querySelector('.cards__info');
+create.addEventListener('click', e => {
+  if(list.length === 18){
+    e.preventDefault();
+   return swal('Error','Solo son maximo 18 productos','error');
+  }
+});
+  
     try {
       const data = await productControl.productList();
         data.forEach(card => {

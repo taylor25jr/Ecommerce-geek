@@ -1,4 +1,3 @@
-const productList = () => fetch('http://localhost:3000/producto').then(answer => answer.json());
 
 const createItem = (img,title,price,category,description) => {
     return fetch('http://localhost:3000/producto', {
@@ -9,6 +8,7 @@ const createItem = (img,title,price,category,description) => {
         body:JSON.stringify({img,title,price,category,description, id: uuid.v4()}),
     })
 }
+const productList = () => fetch('http://localhost:3000/producto').then(answer => answer.json());
 
 const deleteProduct = id => {
     return fetch(`http://localhost:3000/producto/${id}`,{

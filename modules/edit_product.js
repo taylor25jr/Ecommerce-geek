@@ -12,7 +12,7 @@ const form = document.querySelector('[data-form]'),
 
 const infoPromise = async () => {
 
-        //if(id === null) window.location.href = '../screens/error.html';
+        if(id === null) window.location.href = '../screens/error.html';
    
         const product = await productControl.getInfo(id);
         console.log(product)
@@ -20,8 +20,7 @@ const infoPromise = async () => {
         category.value = product.category;
         title.value = product.title;
         price.value = product.price;      
-        description.value = product.description;
-       
+        description.value = product.description;     
      
 }
 
