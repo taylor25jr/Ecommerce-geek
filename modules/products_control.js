@@ -21,23 +21,23 @@ const createProduct = (img,title,price,id) => {
   deleteItem.addEventListener('click', async e => {
     try {
       await productControl.deleteProduct(id);
-      console.log(productControl.deleteProduct())
+      console.log(productControl.deleteProduct());
     } catch (error) {
-      console.log(error)
+      console.log(error);
     }
     
 })
-
-
-  return article;
+return article;
   }
-  const container = document.querySelector('[data-container]')
+
+
+const container = document.querySelector('[data-container]');
 
 const returnPromise = async () => {
 
   const list = await productControl.productList();
   const create = document.querySelector('.cards__info');
-create.addEventListener('click', e => {
+  create.addEventListener('click', e => {
   if(list.length === 18){
     e.preventDefault();
    return swal('Error','Solo son maximo 18 productos','error');
@@ -45,13 +45,13 @@ create.addEventListener('click', e => {
 });
   
     try {
-      const data = await productControl.productList();
-        data.forEach(card => {
-            const newItem = createProduct(card.img,card.title,card.price,card.id);
-            container.appendChild(newItem);
+    const data = await productControl.productList();
+    data.forEach(card => {
+      const newItem = createProduct(card.img,card.title,card.price,card.id);
+      container.appendChild(newItem);
         });
     } catch (error) {
-        console.log(error)
+        console.log(error);
     }
 }
 returnPromise();
