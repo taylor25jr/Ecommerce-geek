@@ -17,57 +17,38 @@ const create = async e => {
     category = document.querySelector('[data-category]').value,
     price = document.querySelector('[data-price]').value,
     description = document.querySelector('[data-description]').value;
-    
+
     await productControl.createItem(url,name,price,category,description);
     
     }
-
-const validationCategory = async e => {
-   
-    try {
-        const data = await productControl.productList();
-        let countStarwars = 0;
-        let countConsolas = 0;
-        let countDiversos = 0;
-        data.forEach(item => {
-            if (item.category === "starwars") {
-                countStarwars++;}
-                
-                if(item.category === "consolas"){
-                    countConsolas++;
-                }
-
-                
-
-
-            console.log(countConsolas);
-        });
-        if(countStarwars === 12){
-            swal('Opss','Solo se admiten 12 productos por categoria','info') ;
-        }else{
-            swal('Felicidades', 'Tu producto ha sido agregado','success');
-        }
-    } catch (error) {
-        console.log(error)
-    }
-    
-} 
-
-
-
 
 
 form.addEventListener('submit', async e => {
 e.preventDefault();
 
-
 try {
-if(validationCategory(e)){
-return e.preventDefault();
-}
-create();
-form.submit();
+    const data = await productControl.productList();
+    let countStarwars = 0;
+    let countConsolas = 0;
+    let countDiversos = 0;
+    data.forEach(item => {
+        if (item.category === "starwars") {
+            countStarwars++;}
+            if(item.category === "consolas"){
+                countConsolas++;}
+            if(item.category === "diversos"){
+                countDiversos++;}
+            });
 
+            if(countStarwars >= 12 || countConsolas >= 12 || countDiversos >= 12){
+                swal('Opss','Solo se admiten 12 productos por categoria','info') ;
+                return e.preventDefault();
+            }else{
+                 create();
+                window.location.href = '/screens/success.html'
+            }
+        
+         
 } catch (error) {
 console.log(error);
 }
