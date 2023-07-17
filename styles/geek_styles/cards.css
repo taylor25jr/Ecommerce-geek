@@ -19,6 +19,33 @@
     width: 90%;
     margin: 20px;
 }
+.cards__title{
+    color: rgb(247, 247, 252);
+    font-size: 36px;
+    text-align: center;
+    animation-name: fadeIn;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+.cards__info{
+    color: #fff;
+    transition: .5s ease-in-out;
+}
+.cards__info:hover{
+    color: #0a0a0a;
+}
 .card__content{
     display: flex;
     flex-flow: row wrap;

@@ -15,9 +15,10 @@ body{
     width: 100%;
     min-height: 100vh;
     grid-template-areas: 
-   'header header header header header header header header'
-   'banner banner banner banner banner banner banner banner'
-   'cards  cards  cards  cards  cards  cards   cards  cards'
+   'header  header  header  header  header  header  header  header'
+   'banner  banner  banner  banner  banner  banner  banner  banner'
+   'cards   cards   cards   cards   cards   cards   cards   cards'
+   'contact contact contact contact contact contact contact contact'
    ;
 }
 
@@ -46,4 +47,6 @@ header{
     grid-area: cards;
     background: linear-gradient(to bottom, #0099cc, #003399);
 }
-
+footer{
+    grid-area: contact;
+}
