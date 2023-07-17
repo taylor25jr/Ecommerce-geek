@@ -38,9 +38,9 @@ const returnPromise = async () => {
   const list = await productControl.productList();
   const create = document.querySelector('.cards__info');
   create.addEventListener('click', e => {
-  if(list.length === 18){
+  if(list.length === 36){
     e.preventDefault();
-   return swal('Error','Solo son maximo 18 productos','error');
+   return swal('Error','Solo son maximo 36 productos','error');
   }
 });
   
