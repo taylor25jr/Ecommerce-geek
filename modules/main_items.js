@@ -10,7 +10,7 @@ article.classList.add('card');
 const inner = `
 <img src="${img}" alt=""  class="card__img">
 <h1 class="name__Card">${title}</h1>
-<h2 class="price__Card">${price}</h2>
+<h2 class="price__Card">$${price}</h2>
 <a class="link__card" href="">Ver producto</a>`
 
 article.innerHTML = inner;

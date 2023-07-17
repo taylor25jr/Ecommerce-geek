@@ -44,6 +44,6 @@ header{
 }
 .content{
     grid-area: cards;
-    background-color: #F5F5F5;
+    background: linear-gradient(to bottom, #0099cc, #003399);
 }
 

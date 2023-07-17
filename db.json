@@ -1,3 +1,148 @@
 {
-  "producto": []
+  "producto": [
+    {
+      "img": "https://i.pinimg.com/236x/ce/cc/ed/ceccede7096301b19d7778e89511240e.jpg",
+      "title": "Play station 2",
+      "price": "100",
+      "category": "consolas",
+      "description": "Consola de videojuegos",
+      "id": "a3f3b419-d4eb-4516-9a40-83088c5e01cc"
+    },
+    {
+      "img": "https://i.pinimg.com/236x/25/0d/76/250d76ff39652ce1584ed78691f7d0f3.jpg",
+      "title": "Play station 5",
+      "price": "500",
+      "category": "consolas",
+      "description": "Consola de videojuegos 4k",
+      "id": "a92e2a6c-3dfd-452a-a6f7-a09b4e4a5a04"
+    },
+    {
+      "img": "https://i.pinimg.com/236x/18/a7/92/18a792eb39d3154e7e41cdb5086ab995.jpg",
+      "title": "Ps5 Joystick",
+      "price": "50",
+      "category": "consolas",
+      "description": "Control de play station 5",
+      "id": "c4c2cdd6-7eeb-4344-bb24-05b968193787"
+    },
+    {
+      "img": "https://i.pinimg.com/236x/3f/7e/d7/3f7ed73c51b0c307bfb368f6e037b06b.jpg",
+      "title": "Play station 4",
+      "price": "350",
+      "category": "consolas",
+      "description": "Consola de videojuegos",
+      "id": "de4ddeb3-7795-488b-9c7b-5b078b725911"
+    },
+    {
+      "img": "https://i.pinimg.com/236x/c9/f7/da/c9f7da5c61d9d14c18d7e3098901e8aa.jpg",
+      "title": "Ps5 VR",
+      "price": "250",
+      "category": "consolas",
+      "description": "Realidad virtual ps5",
+      "id": "e38eb93a-b6d9-43f1-988a-5f3293aeaca8"
+    },
+    {
+      "img": "https://i.pinimg.com/236x/cd/ef/37/cdef37d49df388a45bb1137297b087e0.jpg",
+      "title": "Xbox one",
+      "price": "500",
+      "category": "consolas",
+      "description": "Consola de videojuegos ",
+      "id": "6b0c08cc-583d-4cbf-88d7-1925995fe904"
+    },
+    {
+      "img": "https://i.pinimg.com/236x/82/37/f9/8237f9773ca03756327a18d10e5b9c0e.jpg",
+      "title": "Starwars key-accesory",
+      "price": "15",
+      "category": "starwars",
+      "description": "Accesorio para llaves",
+      "id": "1ad6b25f-c71f-4cd6-a9c2-192411052186"
+    },
+    {
+      "img": "https://i.pinimg.com/236x/55/c5/72/55c5721c3ba10bb63c0e9c15eb81463e.jpg",
+      "title": "Starwars watch",
+      "price": "50",
+      "category": "starwars",
+      "description": "Reloj-starwars",
+      "id": "c3cd4bca-20e8-4e1f-ae61-23487c3c280a"
+    },
+    {
+      "img": "https://i.pinimg.com/236x/0f/63/3c/0f633c71ca42adc4eae3f5e0bb440896.jpg",
+      "title": "Starwars Ring",
+      "price": "10",
+      "category": "starwars",
+      "description": "Anillo de starwars",
+      "id": "0543a630-f2b4-4439-9073-f26b989d9308"
+    },
+    {
+      "img": "https://i.pinimg.com/236x/17/06/75/170675f78a3a7ac0923f2873b5a17b16.jpg",
+      "title": "Starwars USB",
+      "price": "30",
+      "category": "starwars",
+      "description": "USB ",
+      "id": "0325d5e9-265d-4229-ab37-0bf14d322d39"
+    },
+    {
+      "img": "https://i.pinimg.com/236x/53/03/fa/5303fa594b53c61f9c09a279214213a5.jpg",
+      "title": "Iphone 11 case",
+      "price": "15",
+      "category": "starwars",
+      "description": "Starwars case",
+      "id": "e698cfaf-debd-4e8f-ba79-ceb04fc72da5"
+    },
+    {
+      "img": "https://i.pinimg.com/236x/ef/92/8c/ef928c1fd8dcfe6babfa39173bbed665.jpg",
+      "title": "Toys",
+      "price": "25",
+      "category": "starwars",
+      "description": "starwars toys",
+      "id": "3cb9c743-5908-4cd9-9d3b-056e1c209830"
+    },
+    {
+      "img": "https://i.pinimg.com/236x/32/23/fa/3223fac5912049e4f7912830725bd93b.jpg",
+      "title": "Airpods",
+      "price": "100",
+      "category": "diversos",
+      "description": "Airpods",
+      "id": "79e5a295-90f3-403a-976f-058bc6c9bcd9"
+    },
+    {
+      "img": "https://i.pinimg.com/236x/5c/67/bc/5c67bcde1d00ae760e598e61621a0cfa.jpg",
+      "title": "Video beam",
+      "price": "800",
+      "category": "diversos",
+      "description": "Video beam",
+      "id": "992f3ab4-2023-4dd9-9145-3e81efcd3f4c"
+    },
+    {
+      "img": "https://i.pinimg.com/236x/3f/62/c4/3f62c4aa8203bab216ab4114efa1397e.jpg",
+      "title": "Macbook",
+      "price": "900",
+      "category": "diversos",
+      "description": "Portatil marca apple",
+      "id": "c52f21eb-255a-4522-b376-f207e196b85b"
+    },
+    {
+      "img": "https://i.pinimg.com/236x/23/29/d9/2329d97168268f0b73ce7d55d5da4b6c.jpg",
+      "title": "Headphones",
+      "price": "500",
+      "category": "diversos",
+      "description": "Audifonos marca Samsung",
+      "id": "c90900d4-5e71-4c0c-937f-85ace1b42c0f"
+    },
+    {
+      "img": "https://i.pinimg.com/236x/54/0b/46/540b4601b07808033615022f0a53edae.jpg",
+      "title": "Mouse gamer Frozen",
+      "price": "400",
+      "category": "diversos",
+      "description": "Mouse blanco",
+      "id": "cad385d8-25d1-4747-a1c3-09d4661f0286"
+    },
+    {
+      "img": "https://i.pinimg.com/236x/25/82/0e/25820e3a19c856d4e57f809096f62120.jpg",
+      "title": "Cpu + Keyboard",
+      "price": "2500",
+      "category": "diversos",
+      "description": "Cpu y teclado Gamers ",
+      "id": "1d05ab7f-8a6c-4799-b975-b70f86a1fe26"
+    }
+  ]
 }
