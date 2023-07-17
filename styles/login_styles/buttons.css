@@ -18,10 +18,14 @@
 }
 
 .enter__btn{
-    background-color: #2A7AE4;
-    width: 400px;
+    background-color: #0058cb;
+    width: 200px;
     height: 62px;
     font-family: 'Raleway';
     font-size: 18px;
     color: #fff;
+    border: none;
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
 }

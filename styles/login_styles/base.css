@@ -13,11 +13,12 @@ body{
     min-height: 100vh;
     grid-auto-flow: column;
     grid-template-columns:repeat(4,1fr) ;
-    grid-template-rows: 113px 80vh 40vh 10vh  ;
+    grid-template-rows: 113px 500px 40vh 10vh  ;
     grid-template-areas: 
     
-    'header  header  header  header'
-    'main    main    main     main'
+    'header   header   header   header'
+    'main     main     main     main'
+    'footer   footer  footer   footer'
     
     ;
 }
@@ -40,5 +41,9 @@ main{
     justify-content: center;
     flex-flow: column wrap;
     grid-area: main;
-    background-color: #F5F5F5;;
+    background-color: #0f4c75;
+    
+}
+footer{
+    grid-area: footer;
 }

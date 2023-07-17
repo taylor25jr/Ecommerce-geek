@@ -10,21 +10,36 @@
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    width: 100%;
-   
+    width: 500px;
+    background-color: #3282b8;
+    padding: 20px;
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
+
 .login__title{
     margin-bottom:30px;
     font-size: 18px;
+
 }
 .container__email{
     background-color: #fff;
     border: none;
     height: 63px;
     margin-bottom: 30px;
+    border-radius: 10px;
+}
+.input__email{
+    border: none;
+    color: black;
 }
 .container__password{
 border: none;
 height: 63px;
 margin-bottom: 30px;
+border-radius: 10px;
+}
+.input__password{
+    border: none;
+    color: black;
 }

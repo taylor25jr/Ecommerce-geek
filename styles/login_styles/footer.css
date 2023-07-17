@@ -1,0 +1,84 @@
+.footer__info{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+    background-color: #EAF2FD;
+}
+.footer__img{
+    width: 20%;
+}
+
+.geek__sobre{
+    display: flex;
+    flex-flow: column wrap;
+}
+.lista__sobre{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.lista__sobre a {
+    line-height: 3;
+    color: black;
+}
+.contact__us{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+.contact__us__title{
+    margin-bottom: 10px;
+}
+.container__nombre{
+    margin-bottom: 10px;
+}
+.input__contact__nombre{
+    width: 500px;
+    height: 56px;
+   border-radius: 5px; 
+   border: none;
+   padding: 10px;
+
+}
+.input__contact__mensaje{
+    width: 500px;
+    height: 82px;
+    border: none;
+   border-radius: 5px; 
+   padding: 10px;
+
+}
+.container__mensaje{
+    margin-bottom: 5px;
+}
+
+.btn__send{
+    width: 100px;
+    padding: 10px;
+    font-size: 10px;
+    background-color: #007bff;
+    border:none;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   border-radius: 5px; 
+   color: #ffffff;
+}
+
+.footer__desarrolladopor{
+    display: flex;
+    flex-flow:column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.footer__desarrolladopor__title{
+    font-size: 10px;
+    font-weight: 500;
+    color: #464646;
+}
+.footer__desarrolladopor__anio{
+    font-size: 10px;
+    font-weight: 500;
+    color: #464646;
+}
