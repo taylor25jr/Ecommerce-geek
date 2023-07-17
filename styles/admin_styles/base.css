@@ -12,12 +12,13 @@ a{
 body{
     display: grid;
     grid-template-columns: repeat(8,1fr);
-    grid-template-rows: 115px minmax(100vh,auto) 50vh 115px;
+    grid-template-rows: 115px minmax(100vh,auto) 50vh;
     width: 100%;
     min-height: 100vh;
     grid-template-areas: 
-   'header header header header header header header header'
-   'cards  cards  cards  cards  cards  cards   cards  cards'
+   'header   header   header   header   header   header   header   header'
+   'cards    cards    cards    cards    cards    cards    cards    cards'
+   'footer   footer   footer   footer   footer   footer   footer   footer'
    ;
 }
 
@@ -37,4 +38,6 @@ header{
     background: linear-gradient(to bottom, #0099cc, #003399);
 
 }
-
+footer{
+    grid-area: footer;
+}

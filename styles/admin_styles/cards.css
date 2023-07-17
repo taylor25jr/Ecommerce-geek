@@ -27,7 +27,7 @@
 .cards__info{
     
     padding: 10px 20px;
-    background-color: blue;
+    background-color: #0565f6;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -35,7 +35,6 @@
 }
 
 .cards__info:hover{
-    background-color: rgb(28, 80, 211);
   color: black;
 }
 .card__content{

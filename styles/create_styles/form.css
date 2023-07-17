@@ -1,24 +1,64 @@
 *{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Raleway';
+margin:0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Raleway';
 }
 
 .form{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-   
+display: flex;
+flex-flow: column wrap;
+justify-content: center;
+align-items: center;
+width: 400px;
+
 }
 .login__title{
-    margin-bottom:30px;
-    font-size: 18px;
+margin-bottom:30px;
+font-size: 18px;
 }
 .container{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
+display: flex;
+justify-content: center;
+margin-bottom: 10px;
+}
+.container__radio{
+display: flex;
+flex-flow: column wrap;
+line-height: 2;
+justify-content: space-around;
+width: 100%;
+color: rgb(255, 255, 255);
+}
+
+.container__radio__text{
+display: flex;
+justify-content: center;
+align-items: center;
+} 
+.container__radio__text > h1 {
+color: rgb(73, 130, 109);
+}
+.container__radio__inputs{
+display: flex;
+flex-flow: row wrap;
+width: 100%;
+justify-content: space-evenly;
+align-items: baseline;
+margin-bottom: 10px;
+} 
+
+input[type="radio"] {
+appearance: none;
+-webkit-appearance: none;
+-moz-appearance: none;
+width: 15px;
+height: 15px;
+border-radius: 50%;
+border: 2px solid rgb(254, 254, 255);
+outline: none;
+}
+
+input[type="radio"]:checked {
+background-color: rgb(183, 255, 170);
 }
