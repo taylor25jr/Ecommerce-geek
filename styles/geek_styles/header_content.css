@@ -20,7 +20,7 @@ width:60%;
 align-items: center;
 }
 .alura__logo{
-background:url('/img/logo.svg');
+background:url('//img/logo.svg');
 object-fit: cover;
 background-position: center;
 background-repeat: no-repeat;
