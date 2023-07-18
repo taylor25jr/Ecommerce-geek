@@ -43,3 +43,104 @@ border-radius: 10px;
     border: none;
     color: black;
 }
+@media (max-width: 450px){
+    .form{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 80%;
+        background-color: #3282b8;
+        padding: 20px;
+        box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+    
+    .login__title{
+        margin-bottom:30px;
+        font-size: 8px;
+    
+    }
+    .container__email{
+        background-color: #fff;
+        border: none;
+        height: 23px;
+        width: 100%;
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+    .input__email{
+        border: none;
+        color: black;
+        width: 10px;
+        font-size: 10px;
+    }
+    .container__password{
+        border: none;
+        height: 20px;
+        width: 100%;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        }
+        .input__password{
+            border: none;
+            color: black;
+           width: 100%;
+           font-size: 10px;
+
+        }
+
+}
+
+@media (min-width: 450px) and (max-width: 600px) {
+.form{
+display: flex;
+flex-flow: column wrap;
+justify-content: center;
+align-items: center;
+align-content: center;
+width: 50%;
+background-color: #3282b8;
+padding: 20px;
+box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+margin-left: 20px;
+}
+
+.login__title{
+margin-bottom:30px;
+font-size: 8px;
+
+}
+.container__email{
+background-color: #fff;
+border: none;
+height: 23px;
+width: 100%;
+margin-bottom: 30px;
+border-radius: 10px;
+}
+.input__email{
+border: none;
+color: black;
+width: 10px;
+font-size: 10px;
+}
+.container__password{
+border: none;
+height: 20px;
+width: 100%;
+margin-bottom: 30px;
+border-radius: 10px;
+}
+.input__password{
+border: none;
+color: black;
+width: 100%;
+font-size: 10px;
+
+}
+
+}

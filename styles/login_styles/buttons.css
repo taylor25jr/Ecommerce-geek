@@ -32,3 +32,56 @@
 .btn__menu{
     color: black;
 }
+
+@media (max-width: 450px){
+.input__form{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #fff;
+width: 100%;
+padding: 20px;
+height: 100%;
+border-radius: 4px;
+}
+
+.enter__btn{
+background-color: #0058cb;
+width: 30%;
+height: 20px;
+font-family: 'Raleway';
+font-size: 10px;
+color: #fff;
+border: none;
+box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+cursor: pointer;
+}
+}
+
+@media (min-width: 450px) and (max-width: 600px) {
+.input__form{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #fff;
+width: 100%;
+padding: 20px;
+height: 100%;
+border-radius: 4px;
+}
+
+.enter__btn{
+background-color: #0058cb;
+width: 30%;
+height: 20px;
+font-family: 'Raleway';
+font-size: 10px;
+color: #fff;
+border: none;
+box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+cursor: pointer;
+}
+
+}
