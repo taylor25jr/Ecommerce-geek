@@ -29,3 +29,11 @@
   background: #F5F5F5;
   border: none;
 }
+@media (max-width: 767px){
+
+  .login__button{
+   font-size: 1rem;
+    width: 50px;
+    padding: 5px;
+  }
+}

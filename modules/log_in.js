@@ -13,10 +13,15 @@ form.addEventListener('submit', async e => {
             }, 3000);
         })
     }
-    if(!regExpEmail.test(email.value) || !regExpPass.test(password.value)){
+    if(!regExpEmail.test(email.value)){
         e.preventDefault();
-        swal('Lo sentimos', 'No has ingresado un correo valido o una contraseña valida', 'error');
-    }else{
+        swal('Lo sentimos', 'No has ingresado un correo valido', 'error');
+    }
+    else if(!regExpPass.test(password.value)){
+        e.preventDefault();
+        swal('Lo sentimos', 'No has ingresado una contraseña valida. por favor ingresa una contraseña que contenga 8 caracteres y una letra mayuscula', 'error');
+    }
+    else{
         e.preventDefault();
         swal('Felicidades', 'Ha iniciado sesion correctamente', 'success');
         await span();
