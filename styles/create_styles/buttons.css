@@ -19,9 +19,14 @@
 
 .enter__btn{
     background-color: #2A7AE4;
-    width: 400px;
+    width: 200px;
     height: 62px;
     font-family: 'Raleway';
     font-size: 18px;
     color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px black;
+    cursor: pointer;
+
 }

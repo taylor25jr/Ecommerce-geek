@@ -57,14 +57,6 @@
       "id": "1ad6b25f-c71f-4cd6-a9c2-192411052186"
     },
     {
-      "img": "https://i.pinimg.com/236x/55/c5/72/55c5721c3ba10bb63c0e9c15eb81463e.jpg",
-      "title": "Starwars watch",
-      "price": "50",
-      "category": "starwars",
-      "description": "Reloj-starwars",
-      "id": "c3cd4bca-20e8-4e1f-ae61-23487c3c280a"
-    },
-    {
       "img": "https://i.pinimg.com/236x/0f/63/3c/0f633c71ca42adc4eae3f5e0bb440896.jpg",
       "title": "Starwars Ring",
       "price": "10",
@@ -143,6 +135,14 @@
       "category": "diversos",
       "description": "Cpu y teclado Gamers ",
       "id": "1d05ab7f-8a6c-4799-b975-b70f86a1fe26"
+    },
+    {
+      "img": "https://i.pinimg.com/236x/ab/67/bc/ab67bc760020e1bb22bf6538ccae3d14.jpg",
+      "title": "Reloj",
+      "price": "12",
+      "category": "starwars",
+      "description": "reloj de mano",
+      "id": "73e26f39-068f-4768-acd2-10fa94ebc6d7"
     }
   ]
 }
