@@ -42,6 +42,7 @@ justify-content: center;
 flex-flow: column wrap;
 grid-area: main;
 background-color: #0f4c75;
+margin-top:20px ;
 
 }
 footer{
