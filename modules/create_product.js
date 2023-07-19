@@ -59,7 +59,7 @@ if(consolas.checked && countConsolas >= 0 && countConsolas < 12){
 }
 if(diversos.checked && countDiversos >= 0 && countDiversos < 12){
     create();
-    return window.location.href = '/screens/success.html'
+    return window.location.href = '../screens/success.html'
 }else{
     swal('error','errror','error');
 }

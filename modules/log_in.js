@@ -9,7 +9,7 @@ form.addEventListener('submit', async e => {
     const span = () => {
         return new Promise ((resolve,reject) => {
          resolve = setTimeout(() => {
-             window.location.href = '/screens/admin_page.html';
+             window.location.href = '../screens/admin_page.html';
             }, 3000);
         })
     }
